@@ -1,12 +1,20 @@
+body {
+    background-color: antiquewhite;
+}
 .first-line {
-    display: block;
-    width: auto;
     text-align: center;
-    color: royalblue;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: larger;
+    width: auto;
     /* border: 3px solid mediumaquamarine; */
-    margin: auto;
     margin-bottom: 30px;
+}
+.first-line img {
+    width: 50px;
+    height: 50px;
 }
 .main_container {
     display: flex;
@@ -35,4 +43,7 @@
     display: inline-flex;
     border: 3px blue solid;
     padding: 10px;
+}
+h4 {
+    color: rgb(190, 58, 49);
 }
