@@ -1,0 +1,38 @@
+.first-line {
+    display: block;
+    width: auto;
+    text-align: center;
+    color: royalblue;
+    font-size: larger;
+    /* border: 3px solid mediumaquamarine; */
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#frame {
+    width: 250px;
+    height: 200px;
+}
+.toppy {
+    margin-top: 100px;
+}
+/* .list {
+    list-style-image: url(arrows.png);
+    display: inline-block;
+    height: 4px;
+}
+*/
+.formies {
+    padding: 10px;
+    display: block;
+}
+.formie1 {
+    display: inline-flex;
+    border: 3px blue solid;
+    padding: 10px;
+}
